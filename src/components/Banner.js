@@ -37,8 +37,8 @@ export const Banner = () => {
                 <div className="banner-content">
                   <button onClick={() => {
                     const link = document.createElement('a');
-                    link.href = 'CV_MOHAMED_AGHNAOU.pdf';
-                    link.download = 'CV_Mohamed_Aghnaou.pdf';
+                    link.href = 'Mohamed-Aghnaou-CV-ENGLISH.pdf';
+                    link.download = 'Mohamed-Aghnaou-CV-ENGLISH.pdf';
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
