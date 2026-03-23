@@ -32,27 +32,28 @@ export const Projects = () => {
         "Integration of company data, file system and external services"
       ]
     },
-    {
-      id: 2,
-      title: "BiblioManager",
-      shortDescription: "Library book & reservation management app with JWT/OAuth2 security",
-      fullDescription: "Application to simplify book and reservation management in a library. Offers an intuitive system to add, search and track available books, make reservations and add reviews, with secure authentication via JWT and OAuth2 Okta.",
-      imgUrl: projImg2,
-      githubUrl: "#",
-      liveUrl: "#",
-      category: "fullstack",
-      isMobile: false,
-      technologies: ["ReactJs", "Bootstrap", "Spring Boot", "Spring Security", "Spring Data JPA", "Spring JWT", "Okta"],
-      status: "Completed",
-      year: "2024",
-      difficulty: "Advanced",
-      features: [
-        "Intuitive system to add, search and track available books",
-        "Reservations and book reviews",
-        "Secure authentication with Spring Security, JWT and Okta OAuth2",
-        "Modern React interface with Bootstrap"
-      ]
-    },
+     {
+  id: 2,
+  title: "BiblioManager — AI-Powered Library Management System",
+  shortDescription: "A library platform supercharged with a RAG chatbot that answers questions about books in natural language",
+  fullDescription: "Built a full-stack library management system and integrated a Generative AI chatbot using RAG (Retrieval-Augmented Generation). The assistant understands natural language questions, remembers conversation context using chat memory, and retrieves semantically relevant books via vector embeddings from a live MySQL database. Works with Google Gemini and OpenAI — switchable with zero code changes. Built entirely in Java using LangChain4j — rare in the AI freelance world.",
+  imgUrl: projImg2,
+  githubUrl: "#",
+  liveUrl: "#",
+  category: "fullstack",
+  isMobile: false,
+  technologies: ["ReactJs", "Spring Boot", "Java", "LangChain4j", "Google Gemini API", "RAG", "Vector Embeddings", "MySQL", "REST APIs"],
+  status: "Completed",
+  year: "2025",
+  difficulty: "Expert",
+  features: [
+    "RAG chatbot answering natural language questions about the book catalog",
+    "Chat memory maintaining full multi-turn conversation context",
+    "Semantic vector embeddings for intelligent book retrieval from MySQL",
+    "Multi-provider LLM support — Gemini and OpenAI switchable with zero code changes",
+    "Book catalog, reservations and user review management"
+  ]
+},
     {
       id: 3,
       title: "ReserveINPT",
